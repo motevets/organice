@@ -103,16 +103,6 @@ const Settings = ({
 
   const handlePreferEditRawValues = () => base.setPreferEditRawValues(!preferEditRawValues);
 
-  const handleChangelogClick = () => {
-    base.restoreStaticFile('changelog');
-    base.pushModalPage('changelog');
-  };
-
-  const handleHelpClick = () => {
-    base.restoreStaticFile('sample');
-    base.pushModalPage('sample');
-  };
-
   return (
     <div className="settings-container">
       <div className="setting-container">
@@ -329,7 +319,7 @@ const Settings = ({
 
         <hr className="settings-button-separator" />
 
-        <button className="btn settings-btn" onClick={handleChangelogClick}>
+        <Link to="/changelog" className="btn settings-btn">
           Changelog
           {hasUnseenChangelog && (
             <div className="changelog-badge-container">
@@ -337,9 +327,9 @@ const Settings = ({
               &nbsp; What's New?
             </div>
           )}
-        </button>
+        </Link>
 
-        <Link to="/sample" className="btn settings-btn" onClick={handleHelpClick}>
+        <Link to="/sample" className="btn settings-btn">
           Help
         </Link>
 
