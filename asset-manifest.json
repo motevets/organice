@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.60ce7b53.chunk.css",
+    "main.js": "/static/js/main.0c95daa2.chunk.js",
+    "main.js.map": "/static/js/main.0c95daa2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d49955f1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d49955f1.js.map",
+    "static/js/2.93d7c961.chunk.js": "/static/js/2.93d7c961.chunk.js",
+    "static/js/2.93d7c961.chunk.js.map": "/static/js/2.93d7c961.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.79650ea4cddef37081cc0d9f5c2b784c.js": "/precache-manifest.79650ea4cddef37081cc0d9f5c2b784c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.60ce7b53.chunk.css.map": "/static/css/main.60ce7b53.chunk.css.map",
+    "static/js/2.93d7c961.chunk.js.LICENSE.txt": "/static/js/2.93d7c961.chunk.js.LICENSE.txt",
+    "static/media/template.scss": "/static/media/Metropolis-ThinItalic.a10db35c.otf",
+    "static/media/dropbox.svg": "/static/media/dropbox.b53eaec4.svg",
+    "static/media/gitlab.svg": "/static/media/gitlab.99196642.svg",
+    "static/media/organice.svg": "/static/media/organice.11553f69.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d49955f1.js",
+    "static/js/2.93d7c961.chunk.js",
+    "static/css/main.60ce7b53.chunk.css",
+    "static/js/main.0c95daa2.chunk.js"
+  ]
+}
